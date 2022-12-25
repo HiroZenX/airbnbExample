@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 20px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+}
+nav > img{
+    width: 170px;
+    height: 40px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+}
+.hero > img{
+   width: 90%;
+   height: 400px;
+}
+.hero >h1{
+    font-size: 3em;
+}
+.hero > p {
+    font-size: 25px;
+    text-align: justify;
+    margin: 10px 30px;
+}
+
