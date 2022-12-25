@@ -31,4 +31,14 @@ nav > img{
     text-align: justify;
     margin: 10px 30px;
 }
-
+.card-content{
+    width: 175px;
+    margin: 20px;
+}
+.card-content > img{
+    width: 100%;
+    border-radius: 9px;
+}
+.card-info > span{
+    color: rgb(249, 112, 87);
+}
