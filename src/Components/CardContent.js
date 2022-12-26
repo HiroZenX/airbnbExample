@@ -1,13 +1,13 @@
 import {FaStar} from 'react-icons/fa';
-export default function CardContent() {
+export default function CardContent(props) {
   return (
     <div className="card-content">
-        <img src="pic.jpg" alt="profile-pic" />
+        <img src={props.img} alt="profile-pic" />
         <div className="card-info">
             <span><FaStar /></span>
-            <span>30 Likes</span>
-            <h3>Tadashi Hamada</h3>
-            <p><strong>From 180$</strong>/person</p>
+            <span>{props.likes} Likes</span>
+            <h3>{props.name}</h3>
+            <p><strong>From {props.price}$</strong>/person</p>
         </div>
     </div>
   )

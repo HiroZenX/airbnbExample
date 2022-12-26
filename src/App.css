@@ -20,8 +20,8 @@ nav > img{
     box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
 }
 .hero > img{
-   width: 90%;
-   height: 400px;
+   width: 80%;
+   height: 300px;
 }
 .hero >h1{
     font-size: 3em;
@@ -31,12 +31,17 @@ nav > img{
     text-align: justify;
     margin: 10px 30px;
 }
+.cards{
+    display: flex;
+    align-items: center;    
+}
 .card-content{
     width: 175px;
     margin: 20px;
 }
 .card-content > img{
     width: 100%;
+    height: 200px;
     border-radius: 9px;
 }
 .card-info > span{
