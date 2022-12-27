@@ -32,7 +32,8 @@ nav > img{
     margin: 10px 30px;
 }
 .cards{
-    display: flex;
+    width: 100%;
+    display:flex;
     align-items: center;    
 }
 .card-content{

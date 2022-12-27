@@ -9,15 +9,10 @@ function App() {
   return (
     <div className="App">
      <Navbar />
-     <Hero />
+     {/* <Hero /> */}
      <div className="cards">
       {cards.map(card => {
-        return <CardContent
-          img={card.img} 
-          likes={card.likes} 
-          name={card.name} 
-          price={card.price}
-        />
+        return <CardContent {...card}/>
       })}
      </div>
     </div>
